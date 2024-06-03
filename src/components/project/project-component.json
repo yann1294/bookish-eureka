@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_project_project_components",
+  "info": {
+    "displayName": "temoignage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "photo_person": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "testimony": {
+      "type": "text"
+    }
+  }
+}

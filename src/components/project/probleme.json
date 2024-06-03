@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_project_problemes",
+  "info": {
+    "displayName": "Probleme",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description2": {
+      "type": "text"
+    }
+  }
+}

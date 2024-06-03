@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "problem_of_project": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.probleme"
+    },
+    "project_solution": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.solution"
+    },
+    "project_testimonies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.project-component"
+    },
+    "partenaire": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.partner"
+    }
+  }
+}

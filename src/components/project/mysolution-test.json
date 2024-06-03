@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_project_mysolution_tests",
+  "info": {
+    "displayName": "partenaires logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
